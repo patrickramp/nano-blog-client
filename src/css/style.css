@@ -1,0 +1,23 @@
+window {
+    background: silver;
+    color: black;
+}
+headerbar {
+    background: darkslategray;
+    color: ghostwhite;
+}
+entry {
+    background: ghostwhite;
+    color: black;
+}
+text {
+    background: ghostwhite;
+    color: black;
+}
+button {
+    background: darkslategray;
+    color: ghostwhite;
+}
+checkbutton {
+    color: black;
+}

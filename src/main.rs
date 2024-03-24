@@ -117,17 +117,17 @@ fn main() {
             visible: true,
         })));
 
-        // Create entry box for upload image
-        let _image = Rc::new(add_entry_to_parent(EntryConfig::from(EntryConfig {
-            parent: &author_box,
-            set_text: "".to_string(),
-            label_text: "Image:".to_string(),
-            placeholder: "Enter path to image".to_string(),
-            tooltip: "Enter image path".to_string(),
-            width: 16,
-            fill: true,
-            visible: true,
-        })));
+//        // Create entry box for upload image
+//        let _image = Rc::new(add_entry_to_parent(EntryConfig::from(EntryConfig {
+//            parent: &author_box,
+//            set_text: "".to_string(),
+//            label_text: "Image:".to_string(),
+//            placeholder: "Enter path to image".to_string(),
+//            tooltip: "Enter image path".to_string(),
+//            width: 16,
+//            fill: true,
+//            visible: true,
+//        })));
 
         // Create toggle button to show / hide server details
         let show_button = ToggleButton::with_label("Server Details");
